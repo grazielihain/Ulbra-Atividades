@@ -1,0 +1,5 @@
+print("Olá")
+custo=float(int(input("Qual o valor do produto?\n")))
+quant=float(int(input("Qual a quantidade de produtos?\n")))
+total=(custo*quant)
+print (f"O valor total é de R$ {total}.")

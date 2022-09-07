@@ -1,0 +1,5 @@
+x = float(int(input("Digite um número:\n")))
+y = float(int(input("Digite outro número:\n")))
+quoc = (x // y)
+rest = (x % y)
+print(f"o quociente é {quoc} e o resto é {rest}.")

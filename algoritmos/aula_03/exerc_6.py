@@ -1,0 +1,8 @@
+a = float(input("digite o primeiro número:\n"))
+b = float(input("digite o segundo número:\n"))
+c = float(input("digite o terceiro número:\n"))
+prod = (a*b*c)
+soma = (a+b+c)
+sub = (a-b-c)
+soto = (prod + soma + sub)
+print (f"Produto= {prod}, Soma= {soma}, Subtração= {sub} e a soma de todos os resultados é {soto}.")

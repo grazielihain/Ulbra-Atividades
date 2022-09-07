@@ -1,0 +1,5 @@
+temp = float(int(input("Qual o tempo de viagem em minutos?\n")))
+vel = float(int(input("Qual a velocidade média?\n")))
+dist = (temp*vel)
+lit = (dist/12000)
+print(f"Serão gastos {lit} litros de combustível.")

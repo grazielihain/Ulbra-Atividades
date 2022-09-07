@@ -1,0 +1,8 @@
+print("olá")
+number_1=float(int(input("Digite um número:\n")))
+number_2=float(int(input("Digite outro número:\n")))
+ad=(number_1+number_2)
+sub=(number_1-number_2)
+multi=(number_1*number_2)
+div=(number_1/number_2)
+print (f"O resultado das operações do primeiro número pelo segundo número são: de adição- {ad}, subtração- {sub}, multiplicação- {multi} e divisão- {div}.")
