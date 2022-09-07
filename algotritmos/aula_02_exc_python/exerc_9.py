@@ -1,0 +1,5 @@
+print("Olá")
+custo=float(int(input("Qual o valor de custo?\n")))
+venda=float(int(input("Qual o valor de venda?\n")))
+lucro=(venda-custo)
+print (f"O lucro da peça, sem desconto de impostos, é de R$ {lucro}.")

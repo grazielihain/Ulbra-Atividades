@@ -1,0 +1,5 @@
+print ("Olá!")
+div1= float(int(input("Qual o valor do dividendo?\n")))
+div2= float(int(input("Qual o valor do divisor?\n")))
+resto= (div1 % div2)
+print (f"O resto é {resto}. ")
